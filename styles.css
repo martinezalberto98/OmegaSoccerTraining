@@ -3,50 +3,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+/* General Reset */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
     background-color: #ffffff;
     color: #333;
     padding: 20px;
-  }
-  
-  header {
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #004d40; /* Dark green */
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #80cbc4; /* Light green */
+}
+
+header {
     text-align: center;
     margin-bottom: 40px;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-  }
-  
-  header p {
+}
+
+header p {
     font-size: 1.2rem;
     color: #555;
-  }
-  
-  /* Hero Section */
-  .hero {
+}
+
+/* Hero Section */
+.hero {
     background: url('https://source.unsplash.com/1600x600/?soccer') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-  }
-  
-  .hero p {
+}
+
+.hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-  }
-  
-  .hero .btn {
+}
+
+.hero .btn {
     display: inline-block;
     background-color: #f1e76c;
     color: #000;
@@ -56,62 +108,77 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
-  
-  .hero .btn:hover {
+}
+
+.hero .btn:hover {
     background-color: #e5d94a;
-  }
-  
-  /* Overview & Benefits */
-  section.overview,
-  section.benefits {
+}
+
+/* Overview & Benefits */
+section.overview,
+section.benefits {
     max-width: 1000px;
     margin: 60px auto;
     text-align: center;
     padding: 0 20px;
-  }
-  
-  section h2 {
+}
+
+section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-  }
-  
-  section p {
+}
+
+section p {
     margin-bottom: 40px;
     color: #444;
-  }
-  
-  section div {
+}
+
+section div {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-  }
-  
-  section div > div {
+}
+
+section div > div {
     flex: 1 1 200px;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     background: #f9f9f9;
-  }
-  
-  section img {
+}
+
+section img {
     height: 50px;
     margin-bottom: 10px;
-  }
-  
-  section h4 {
+}
+
+section h4 {
     margin-bottom: 10px;
     font-size: 1.1rem;
-  }
-  
-  /* Footer */
-  footer {
+}
+
+/* Button Styling */
+.btn {
+    background-color: #00796b; /* Teal */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004d40; /* Dark green */
+}
+
+/* Footer */
+footer {
     text-align: center;
     margin-top: 60px;
     padding-top: 20px;
     border-top: 1px solid #eee;
     font-size: 0.9rem;
     color: #666;
-  }
+}
