@@ -16,20 +16,21 @@ body, ul, li {
 body {
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    background-color: #ffffff;
-    color: #333;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark gray text */
     padding: 20px;
 }
 
 /* Navigation Bar */
 nav {
-    background-color: #004d40; /* Dark green */
-    color: white;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
     padding: 10px 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-bottom: 1px solid #e0e0e0; /* Light gray border */
 }
 
 .nav-container {
@@ -56,13 +57,13 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: #007bff; /* Blue links */
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #80cbc4; /* Light green */
+    color: #0056b3; /* Darker blue on hover */
 }
 
 header {
@@ -100,8 +101,8 @@ header p {
 
 .hero .btn {
     display: inline-block;
-    background-color: #f1e76c;
-    color: #000;
+    background-color: #007bff; /* Blue button */
+    color: #ffffff; /* White text */
     padding: 12px 24px;
     border-radius: 6px;
     font-weight: bold;
@@ -111,7 +112,7 @@ header p {
 }
 
 .hero .btn:hover {
-    background-color: #e5d94a;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Overview & Benefits */
@@ -126,11 +127,12 @@ section.benefits {
 section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #000000; /* Black headings */
 }
 
 section p {
     margin-bottom: 40px;
-    color: #444;
+    color: #555; /* Medium gray text */
 }
 
 section div {
@@ -145,7 +147,7 @@ section div > div {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
-    background: #f9f9f9;
+    background: #f9f9f9; /* Light gray background */
 }
 
 section img {
@@ -156,11 +158,12 @@ section img {
 section h4 {
     margin-bottom: 10px;
     font-size: 1.1rem;
+    color: #000000; /* Black headings */
 }
 
 /* Button Styling */
 .btn {
-    background-color: #00796b; /* Teal */
+    background-color: #007bff; /* Blue button */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -170,7 +173,7 @@ section h4 {
 }
 
 .btn:hover {
-    background-color: #004d40; /* Dark green */
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Footer */
@@ -178,7 +181,7 @@ footer {
     text-align: center;
     margin-top: 60px;
     padding-top: 20px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #e0e0e0; /* Light gray border */
     font-size: 0.9rem;
-    color: #666;
+    color: #666; /* Medium gray text */
 }
