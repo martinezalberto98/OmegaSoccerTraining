@@ -83,10 +83,13 @@ header p {
 
 /* Hero Section */
 .hero {
-    background: url('../Images/HeroImage.jpeg') no-repeat center center/cover;
+    background: url('../Images/HeroImage.jpeg') no-repeat center center;
+    background-size: contain; /* Ensures the entire image is visible */
+    background-attachment: fixed; /* Optional: Makes the background stay fixed during scrolling */
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px; /* Adjust padding to control the section height */
+    height: 400px; /* Set a fixed height for the hero section */
 }
 
 .hero h1 {
