@@ -81,19 +81,31 @@ header p {
     color: #555;
 }
 
-/* Hero Section */
 .hero {
-    background-image: url('..Assets/Image/StockPhoto1'); /* Path to your hero image */
-    background-position: center center; /* Center the image */
     background-color: rgba(0, 0, 0, 0.5); /* Fallback color */
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: left;
-    padding: 50px 20px; /* Adjust padding to control spacing */
-    min-height: 300px; /* Ensures the section has a minimum height */
-    height: auto; /* Allows the height to adjust dynamically based on the image */
+    align-items: center;
+    padding: 50px 20px;
+    min-height: 300px;
+}
+
+.hero-images {
+    display: flex;
+    justify-content: space-between; /* Ensures equal spacing between images */
+    align-items: center;
+    width: 100%; /* Makes the container span the full width */
+    max-width: 1200px; /* Optional: Limits the container width */
+    gap: 20px; /* Adds spacing between images */
+}
+
+.hero-images img {
+    flex: 1; /* Ensures all images take up equal space */
+    max-width: 100%; /* Ensures images don't overflow */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures images are cropped properly if needed */
+    border-radius: 8px; /* Optional: Adds rounded corners */
 }
 
 .hero h1 {
