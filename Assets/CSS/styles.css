@@ -83,11 +83,14 @@ header p {
 
 /* Hero Section */
 .hero {
-    
-    background-size: contain; /* Ensures the entire image is visible */
-    background-attachment: scroll; /* Prevents the parallax effect */
-    color: white;
-    text-align: center;
+    background-image: url('..Assets/Image/StockPhoto1'); /* Path to your hero image */
+    background-position: center center; /* Center the image */
+    background-color: rgba(0, 0, 0, 0.5); /* Fallback color */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
     padding: 50px 20px; /* Adjust padding to control spacing */
     min-height: 300px; /* Ensures the section has a minimum height */
     height: auto; /* Allows the height to adjust dynamically based on the image */
