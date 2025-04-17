@@ -81,7 +81,7 @@ header p {
     color: #555;
 }
 
-..hero {
+.hero {
     background-color: rgba(0, 0, 0, 0.5); /* Gray background */
     position: relative;
     display: flex;
@@ -105,8 +105,8 @@ header p {
 
 .hero-images img {
     flex: 1; /* Ensures all images take up equal space */
-    max-width: 100%; /* Ensures images stretch to fill their container */
-    height: 100%; /* Ensures images cover the height of the container */
+    max-width: 50%; /* Ensures images stretch to fill their container */
+    height: 50%; /* Ensures images cover the height of the container */
     object-fit: cover; /* Ensures images are cropped properly if needed */
     border-radius: 0; /* Removes rounded corners to fill the space */
 }
