@@ -81,10 +81,11 @@ header p {
     color: #555;
 }
 
-.hero {
-    background-color: rgba(0, 0, 0, 0.5); /* Fallback color */
+..hero {
+    background-color: rgba(0, 0, 0, 0.5); /* Gray background */
     position: relative;
     display: flex;
+    flex-direction: column; /* Stack content vertically */
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
@@ -99,14 +100,15 @@ header p {
     width: 100%; /* Makes the container span the full width */
     max-width: 1200px; /* Optional: Limits the container width */
     gap: 20px; /* Adds spacing between images */
+    flex: 1; /* Ensures the images stretch to fill the available space */
 }
 
 .hero-images img {
     flex: 1; /* Ensures all images take up equal space */
-    max-width: 22%; /* Ensures images fit within the container */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; /* Ensures images stretch to fill their container */
+    height: 100%; /* Ensures images cover the height of the container */
     object-fit: cover; /* Ensures images are cropped properly if needed */
-    border-radius: 8px; /* Optional: Adds rounded corners */
+    border-radius: 0; /* Removes rounded corners to fill the space */
 }
 
 .hero h1 {
