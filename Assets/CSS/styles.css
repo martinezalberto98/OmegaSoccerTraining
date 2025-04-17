@@ -89,6 +89,7 @@ header p {
     align-items: center;
     padding: 50px 20px;
     min-height: 300px;
+    overflow: hidden; /* Prevents horizontal scrolling */
 }
 
 .hero-images {
@@ -102,7 +103,7 @@ header p {
 
 .hero-images img {
     flex: 1; /* Ensures all images take up equal space */
-    max-width: 100%; /* Ensures images don't overflow */
+    max-width: 22%; /* Ensures images fit within the container */
     height: auto; /* Maintains aspect ratio */
     object-fit: cover; /* Ensures images are cropped properly if needed */
     border-radius: 8px; /* Optional: Adds rounded corners */
