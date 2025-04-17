@@ -83,7 +83,7 @@ header p {
 
 /* Hero Section */
 .hero {
-    background: url('https://source.unsplash.com/1600x600/?soccer') no-repeat center center/cover;
+    background: url('../Images/HeroImage.jpeg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
