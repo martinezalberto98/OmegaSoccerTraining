@@ -83,7 +83,7 @@ header p {
 
 /* Hero Section */
 .hero {
-    background: url('../Images/HeroImage.svg') no-repeat center center;
+    
     background-size: contain; /* Ensures the entire image is visible */
     background-attachment: scroll; /* Prevents the parallax effect */
     color: white;
