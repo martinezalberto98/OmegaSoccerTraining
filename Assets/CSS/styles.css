@@ -88,32 +88,29 @@ header p {
     flex-direction: column; /* Stack content vertically */
     justify-content: center;
     align-items: center;
-    padding: 50px 20px;
+    padding-top: 50px;
     min-height: 300px;
     overflow: hidden; /* Prevents horizontal scrolling */
+    height: 100%;
 }
 
 .hero-images {
-    display: flex;
-    justify-content: space-between; /* Ensures equal spacing between images */
+    text-align: center;
+    justify-content:center; /* Ensures equal spacing between images */
     align-items: center;
-    width: 100%; /* Makes the container span the full width */
-    max-width: 1200px; /* Optional: Limits the container width */
+    width: 80%; /* Adjusts the width of the image container */
+    max-width: 80%; /* Optional: Limits the container width */
     gap: 20px; /* Adds spacing between images */
-    flex: 1; /* Ensures the images stretch to fill the available space */
+    white-space: nowrap; /* Prevents text wrapping */
+    height: 100%;
 }
 
-.hero-images img {
-    flex: 1; /* Ensures all images take up equal space */
-    max-width: 50%; /* Ensures images stretch to fill their container */
-    height: 50%; /* Ensures images cover the height of the container */
-    object-fit: cover; /* Ensures images are cropped properly if needed */
-    border-radius: 0; /* Removes rounded corners to fill the space */
-}
+
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 28px;
     margin-bottom: 10px;
+
 }
 
 .hero p {
