@@ -105,6 +105,11 @@ header p {
     height: 100%;
 }
 
+.hero img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+
 
 
 .hero h1 {
