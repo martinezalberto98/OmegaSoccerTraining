@@ -110,10 +110,11 @@ header p {
 }
 
 
-
 .hero h1 {
     font-size: 28px;
     margin-bottom: 10px;
+    color:#007bff;
+    
 }
 
 .hero p {
