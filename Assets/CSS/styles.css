@@ -199,6 +199,19 @@ section h4 {
     background-color: #0056b3; /* Darker blue on hover */
 }
 
+#about-us {
+    display:inline-block;
+    margin: 20px auto; /* Centers the button horizontally */
+    text-align: center;
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none; /* Removes underline */
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
 /* Footer */
 footer {
     text-align: center;
