@@ -88,27 +88,27 @@ header p {
     flex-direction: column; /* Stack content vertically */
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px 20px;
     min-height: 300px;
     overflow: hidden; /* Prevents horizontal scrolling */
-    height: 100%;
 }
 
 .hero-images {
-    text-align: center;
-    justify-content:center; /* Ensures equal spacing between images */
-    align-items: center;
-    width: 80%; /* Adjusts the width of the image container */
-    max-width: 80%; /* Optional: Limits the container width */
+    display: flex;
+    flex-direction:row; /* Stack images vertically */
+    justify-content: center; /* Center images vertically */
+    align-items: center; /* Center images horizontally */
     gap: 20px; /* Adds spacing between images */
-    white-space: nowrap; /* Prevents text wrapping */
-    height: 100%;
+    width: 100%; /* Makes the container span the full width */
 }
 
-.hero img {
-    max-width: 100%;
-    height: auto; /* Maintain aspect ratio */
-  }
+.hero-images img {
+    width: 80%; /* Adjusts the width of each image */
+    max-width: 400px; /* Optional: Limits the maximum width of each image */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures images are cropped properly if needed */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
 
 
 
