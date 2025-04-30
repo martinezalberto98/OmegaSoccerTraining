@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel = "stylesheet" href="Assets/CSS/styles.css">
+</head>
+<body>
+    <section class="contact-form">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="club">Club (if applicable)</label>
+                <input type="text" id="club" name="club" placeholder="Enter your club name">
+            </div>
+            <div class="form-group">
+                <label for="position">Position</label>
+                <input type="text" id="position" name="position" placeholder="Enter your position">
+            </div>
+            <div class="form-group">
+                <label for="service">Type of Service</label>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="1-on-1">1-on-1 Training</option>
+                    <option value="group">Small Group Training</option>
+                    <option value="speed-agility">Speed & Agility</option>
+                    <option value="position-coaching">Position Coaching</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="county">Part of the County</label>
+                <select id="county" name="county" required>
+                    <option value="" disabled selected>Select your area</option>
+                    <option value="south-county">South County</option>
+                    <option value="east-county">East County</option>
+                    <option value="central">Central</option>
+                    <option value="north-county">North County</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>
