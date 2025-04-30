@@ -264,33 +264,27 @@ footer {
 
 /* Services Section */
 .services {
-    max-width: 1000px;
-    margin: 60px auto;
-    padding: 0 20px;
     text-align: center;
-}
-
-.services h1 {
-    font-size: 2.2rem;
-    margin-bottom: 40px;
-    color: #007bff;
+    padding: 50px 20px;
 }
 
 .service-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Ensures items wrap to the next line if needed */
+    justify-content: space-between; /* Distributes space evenly between items */
+    gap: 20px; /* Adds spacing between the cards */
+    max-width: 1200px; /* Optional: Limits the container width */
+    margin: 0 auto; /* Centers the container */
 }
 
 .service-card {
-    flex: 1 1 250px;
-    background-color: #f9f9f9;
+    flex: 1 1 calc(25% - 20px); /* Each card takes up 25% of the container width minus the gap */
+    max-width: 25%; /* Ensures cards don’t exceed 25% of the container width */
+    background-color: #f9f9f9; /* Optional: Adds a background color */
     padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    text-align: left; /* Aligns text to the left */
 }
 
 .service-card:hover {
