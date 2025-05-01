@@ -10,7 +10,7 @@ body, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Arial, sans-serif;
+    font-family: Robotod, sans-serif;
 }
 
 body {
@@ -49,6 +49,13 @@ nav {
 .nav-links {
     display: flex;
     gap: 20px;
+    font-family: 'Exo';
+    src: url('Assests/fonts/Exo-Bold.eot');
+    src: url('Assests/fonts/Exo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Assests/fonts/Exo-Bold.woff2') format('woff2'),
+         url('Assests/fonts/Exo-Bold.woff') format('woff'),
+         url('Assests/fonts/Exo-Bold.ttf')  format('truetype'),
+         url('Assests/fonts/Exo-Bold.svg#Exo') format('svg');
 }
 
 .nav-links li {
