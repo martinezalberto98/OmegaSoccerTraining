@@ -42,7 +42,7 @@ nav {
 }
 
 .logo img {
-    height: 50px;
+    height: 125px;
     width: auto;
 }
 
@@ -57,9 +57,13 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #007bff; /* Blue links */
+    color: #001A3A; /* Blue links */
     font-weight: bold;
     transition: color 0.3s ease;
+    }
+    
+    .nav-links a:visited {
+        color: #001A3A; /* Blue links */
 }
 
 .nav-links a:hover {
