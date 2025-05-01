@@ -50,12 +50,6 @@ nav {
     display: flex;
     gap: 20px;
     font-family: 'Exo';
-    src: url('Assests/fonts/Exo-Bold.eot');
-    src: url('Assests/fonts/Exo-Bold.eot?#iefix') format('embedded-opentype'),
-         url('Assests/fonts/Exo-Bold.woff2') format('woff2'),
-         url('Assests/fonts/Exo-Bold.woff') format('woff'),
-         url('Assests/fonts/Exo-Bold.ttf')  format('truetype'),
-         url('Assests/fonts/Exo-Bold.svg#Exo') format('svg');
 }
 
 .nav-links li {
@@ -68,16 +62,10 @@ nav {
     font-weight: bold;
     transition: color 0.3s ease;
     font-family: 'Exo';
-    src: url('Assets/fonts/Exo-Bold.eot');
-    src: url('Assets/fonts/Exo-Bold.eot?#iefix') format('embedded-opentype'),
-         url('Assets/fonts/Exo-Bold.woff2') format('woff2'),
-         url('Assets/fonts/Exo-Bold.woff') format('woff'),
-         url('Assets/fonts/Exo-Bold.ttf')  format('truetype'),
-         url('Assets/fonts/Exo-Bold.svg#Exo') format('svg');
-    }
+}
     
-    .nav-links a:visited {
-        color: #001A3A; /* Blue links */
+.nav-links a:visited {
+    color: #001A3A; /* Blue links */
 }
 
 .nav-links a:hover {
@@ -455,4 +443,16 @@ textarea {
         font-size: 1rem; /* Adjust button size */
         padding: 10px 15px;
     }
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('Assets/fonts/Exo-Bold.eot');
+    src: url('Assets/fonts/Exo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Assets/fonts/Exo-Bold.woff2') format('woff2'),
+         url('Assets/fonts/Exo-Bold.woff') format('woff'),
+         url('Assets/fonts/Exo-Bold.ttf') format('truetype'),
+         url('Assets/fonts/Exo-Bold.svg#Exo') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
