@@ -13,6 +13,18 @@ body, ul, li {
     font-family: Robotod, sans-serif;
 }
 
+@font-face {
+    font-family: 'Exo';
+    src: url('Assets/fonts/Exo-Bold.eot');
+    src: url('Assets/fonts/Exo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Assets/fonts/Exo-Bold.woff2') format('woff2'),
+         url('Assets/fonts/Exo-Bold.woff') format('woff'),
+         url('Assets/fonts/Exo-Bold.ttf') format('truetype'),
+         url('Assets/fonts/Exo-Bold.svg#Exo') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
@@ -445,14 +457,3 @@ textarea {
     }
 }
 
-@font-face {
-    font-family: 'Exo';
-    src: url('Assets/fonts/Exo-Bold.eot');
-    src: url('Assets/fonts/Exo-Bold.eot?#iefix') format('embedded-opentype'),
-         url('Assets/fonts/Exo-Bold.woff2') format('woff2'),
-         url('Assets/fonts/Exo-Bold.woff') format('woff'),
-         url('Assets/fonts/Exo-Bold.ttf') format('truetype'),
-         url('Assets/fonts/Exo-Bold.svg#Exo') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
